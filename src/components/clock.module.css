@@ -1,0 +1,15 @@
+.btn {
+    margin: 0 auto;
+    width: 400px;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: darkgrey;
+    font-weight: bold;
+    color: darkblue;
+}
+.root {
+    display:  inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}

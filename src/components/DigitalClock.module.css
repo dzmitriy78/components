@@ -1,0 +1,9 @@
+.date {
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    font-weight: bold;
+    color: aqua;
+    margin-top: 50px;
+}
+
