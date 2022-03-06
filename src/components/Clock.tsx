@@ -3,8 +3,10 @@ import DigitalClock from "./DigitalClock";
 import AnalogClock from "./AnalogClock";
 import AnalogClock2 from "./AnalogClock2";
 import classes from "./clock.module.css"
-import AnalogClock3 from "./DigitalClock2";
 import DigitalClock2 from "./DigitalClock2";
+import AnalogClock3 from "./AnalogClock3";
+import AnalogClock4 from "./AnalogClock4";
+
 
 const Clock = () => {
 
@@ -21,7 +23,7 @@ const Clock = () => {
             <button className={classes.btn} onClick={changeTypeClock}>{"Показать" + " " + toggle}</button>
             {toggle === "Аналоговые часы"
                 ? <DigitalClock2/>
-                : <AnalogClock2/>
+                : <AnalogClock4/>
             }
         </div>
     );
